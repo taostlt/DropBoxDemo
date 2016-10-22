@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  GoBackViewController.swift
 //  DropBoxDemo
 //
 //  Created by Alex on 10/20/16.
@@ -8,10 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class GoBackViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        
 
         // Do any additional setup after loading the view.
     }
@@ -21,6 +24,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func didpressWelcome(_ sender: AnyObject) {
+         print("gone back")
+//        navigationController!.popViewController(animated: true)
+    }
+   
 
     /*
     // MARK: - Navigation

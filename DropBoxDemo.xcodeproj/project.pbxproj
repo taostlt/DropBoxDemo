@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188B66BA1DBBF28800A0601C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B66B91DBBF28800A0601C /* FeedViewController.swift */; };
+		188B66BC1DBBF92500A0601C /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B66BB1DBBF92500A0601C /* ScrollViewController.swift */; };
+		189634331DBA9D6C00B477EF /* DismissViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189634321DBA9D6C00B477EF /* DismissViewController.swift */; };
 		FA14FA201DB8653D00423261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14FA1F1DB8653D00423261 /* AppDelegate.swift */; };
 		FA14FA221DB8653D00423261 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14FA211DB8653D00423261 /* ViewController.swift */; };
 		FA14FA251DB8653D00423261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA14FA231DB8653D00423261 /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 		FA14FA2A1DB8653D00423261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA14FA281DB8653D00423261 /* LaunchScreen.storyboard */; };
 		FA14FA351DB8653D00423261 /* DropBoxDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14FA341DB8653D00423261 /* DropBoxDemoTests.swift */; };
 		FA14FA401DB8653D00423261 /* DropBoxDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14FA3F1DB8653D00423261 /* DropBoxDemoUITests.swift */; };
+		FA9ED32F1DB9768B00132C21 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9ED32E1DB9768B00132C21 /* LoginViewController.swift */; };
+		FA9ED3311DB9786F00132C21 /* AutoSegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9ED3301DB9786F00132C21 /* AutoSegueViewController.swift */; };
+		FA9ED3331DB97CCC00132C21 /* GoBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9ED3321DB97CCC00132C21 /* GoBackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		188B66B91DBBF28800A0601C /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		188B66BB1DBBF92500A0601C /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		189634321DBA9D6C00B477EF /* DismissViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissViewController.swift; sourceTree = "<group>"; };
 		FA14FA1C1DB8653D00423261 /* DropBoxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropBoxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA14FA1F1DB8653D00423261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA14FA211DB8653D00423261 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		FA14FA3B1DB8653D00423261 /* DropBoxDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropBoxDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA14FA3F1DB8653D00423261 /* DropBoxDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropBoxDemoUITests.swift; sourceTree = "<group>"; };
 		FA14FA411DB8653D00423261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9ED32E1DB9768B00132C21 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FA9ED3301DB9786F00132C21 /* AutoSegueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoSegueViewController.swift; sourceTree = "<group>"; };
+		FA9ED3321DB97CCC00132C21 /* GoBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoBackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,11 @@
 		FA14FA1E1DB8653D00423261 /* DropBoxDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FA9ED32B1DB9762100132C21 /* Classes */,
 				FA14FA1F1DB8653D00423261 /* AppDelegate.swift */,
 				FA14FA211DB8653D00423261 /* ViewController.swift */,
 				FA14FA231DB8653D00423261 /* Main.storyboard */,
+				188B66B91DBBF28800A0601C /* FeedViewController.swift */,
 				FA14FA261DB8653D00423261 /* Assets.xcassets */,
 				FA14FA281DB8653D00423261 /* LaunchScreen.storyboard */,
 				FA14FA2B1DB8653D00423261 /* Info.plist */,
@@ -123,6 +137,18 @@
 				FA14FA411DB8653D00423261 /* Info.plist */,
 			);
 			path = DropBoxDemoUITests;
+			sourceTree = "<group>";
+		};
+		FA9ED32B1DB9762100132C21 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FA9ED32E1DB9768B00132C21 /* LoginViewController.swift */,
+				FA9ED3301DB9786F00132C21 /* AutoSegueViewController.swift */,
+				FA9ED3321DB97CCC00132C21 /* GoBackViewController.swift */,
+				189634321DBA9D6C00B477EF /* DismissViewController.swift */,
+				188B66BB1DBBF92500A0601C /* ScrollViewController.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +288,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9ED32F1DB9768B00132C21 /* LoginViewController.swift in Sources */,
+				FA9ED3331DB97CCC00132C21 /* GoBackViewController.swift in Sources */,
+				FA9ED3311DB9786F00132C21 /* AutoSegueViewController.swift in Sources */,
+				188B66BC1DBBF92500A0601C /* ScrollViewController.swift in Sources */,
 				FA14FA221DB8653D00423261 /* ViewController.swift in Sources */,
 				FA14FA201DB8653D00423261 /* AppDelegate.swift in Sources */,
+				188B66BA1DBBF28800A0601C /* FeedViewController.swift in Sources */,
+				189634331DBA9D6C00B477EF /* DismissViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,10 +449,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6M6G8U73MP;
 				INFOPLIST_FILE = DropBoxDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dropBox.DropBoxDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -430,10 +464,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6M6G8U73MP;
 				INFOPLIST_FILE = DropBoxDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dropBox.DropBoxDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -514,6 +550,7 @@
 				FA14FA461DB8653D00423261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA14FA471DB8653D00423261 /* Build configuration list for PBXNativeTarget "DropBoxDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +559,7 @@
 				FA14FA491DB8653D00423261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA14FA4A1DB8653D00423261 /* Build configuration list for PBXNativeTarget "DropBoxDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +568,7 @@
 				FA14FA4C1DB8653D00423261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

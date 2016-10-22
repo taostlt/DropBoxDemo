@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AutoSegueViewController.swift
 //  DropBoxDemo
 //
 //  Created by Alex on 10/20/16.
@@ -8,10 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AutoSegueViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("ALEX AUTO SEGUE")
 
         // Do any additional setup after loading the view.
     }

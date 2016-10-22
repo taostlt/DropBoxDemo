@@ -1,26 +1,33 @@
 //
-//  ViewController.swift
+//  DismissViewController.swift
 //  DropBoxDemo
 //
-//  Created by Alex on 10/20/16.
+//  Created by Alexander on 10/21/16.
 //  Copyright © 2016 Alex. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class DismissViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func onButton(_ sender: AnyObject) {
+        dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func pressButton(_ sender: AnyObject) {
+        dismiss(animated: true, completion: nil)
+        }
+
+    
+}
+
+
 
     /*
     // MARK: - Navigation
@@ -32,4 +39,4 @@ class ViewController: UIViewController {
     }
     */
 
-}
+

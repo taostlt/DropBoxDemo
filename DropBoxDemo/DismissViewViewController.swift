@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DismissViewViewController.swift
 //  DropBoxDemo
 //
 //  Created by Alex on 10/20/16.
@@ -8,10 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DismissViewViewController: UIViewController {
+    @IBOutlet weak var doneButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        dismiss(animated: true, completion: nil)
 
         // Do any additional setup after loading the view.
     }

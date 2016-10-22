@@ -1,17 +1,21 @@
 //
-//  ViewController.swift
+//  FeedViewController.swift
 //  DropBoxDemo
 //
-//  Created by Alex on 10/20/16.
+//  Created by Alexander on 10/22/16.
 //  Copyright © 2016 Alex. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class FeedViewController: UIViewController {
 
+    @IBOutlet weak var settingScroll: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        settingScroll.contentSize=CGSize(width: 640, height: 1544)
 
         // Do any additional setup after loading the view.
     }
