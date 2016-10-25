@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182D01DA1DBC6B6A0042FB18 /* ExistingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D01D91DBC6B6A0042FB18 /* ExistingPhotosViewController.swift */; };
+		18466E821DBC3C36006D6F1A /* SegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18466E811DBC3C36006D6F1A /* SegueViewController.swift */; };
+		18466E841DBC4888006D6F1A /* Sign_in3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18466E831DBC4888006D6F1A /* Sign_in3ViewController.swift */; };
+		18466E861DBC4F22006D6F1A /* SignIn_1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18466E851DBC4F22006D6F1A /* SignIn_1ViewController.swift */; };
 		188B66BA1DBBF28800A0601C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B66B91DBBF28800A0601C /* FeedViewController.swift */; };
 		188B66BC1DBBF92500A0601C /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B66BB1DBBF92500A0601C /* ScrollViewController.swift */; };
 		189634331DBA9D6C00B477EF /* DismissViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189634321DBA9D6C00B477EF /* DismissViewController.swift */; };
@@ -40,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182D01D91DBC6B6A0042FB18 /* ExistingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingPhotosViewController.swift; sourceTree = "<group>"; };
+		18466E811DBC3C36006D6F1A /* SegueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueViewController.swift; sourceTree = "<group>"; };
+		18466E831DBC4888006D6F1A /* Sign_in3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sign_in3ViewController.swift; sourceTree = "<group>"; };
+		18466E851DBC4F22006D6F1A /* SignIn_1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn_1ViewController.swift; sourceTree = "<group>"; };
 		188B66B91DBBF28800A0601C /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		188B66BB1DBBF92500A0601C /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		189634321DBA9D6C00B477EF /* DismissViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +121,8 @@
 				FA14FA1F1DB8653D00423261 /* AppDelegate.swift */,
 				FA14FA211DB8653D00423261 /* ViewController.swift */,
 				FA14FA231DB8653D00423261 /* Main.storyboard */,
+				18466E851DBC4F22006D6F1A /* SignIn_1ViewController.swift */,
+				18466E811DBC3C36006D6F1A /* SegueViewController.swift */,
 				188B66B91DBBF28800A0601C /* FeedViewController.swift */,
 				FA14FA261DB8653D00423261 /* Assets.xcassets */,
 				FA14FA281DB8653D00423261 /* LaunchScreen.storyboard */,
@@ -147,6 +157,8 @@
 				FA9ED3321DB97CCC00132C21 /* GoBackViewController.swift */,
 				189634321DBA9D6C00B477EF /* DismissViewController.swift */,
 				188B66BB1DBBF92500A0601C /* ScrollViewController.swift */,
+				18466E831DBC4888006D6F1A /* Sign_in3ViewController.swift */,
+				182D01D91DBC6B6A0042FB18 /* ExistingPhotosViewController.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -288,8 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182D01DA1DBC6B6A0042FB18 /* ExistingPhotosViewController.swift in Sources */,
+				18466E821DBC3C36006D6F1A /* SegueViewController.swift in Sources */,
 				FA9ED32F1DB9768B00132C21 /* LoginViewController.swift in Sources */,
+				18466E841DBC4888006D6F1A /* Sign_in3ViewController.swift in Sources */,
 				FA9ED3331DB97CCC00132C21 /* GoBackViewController.swift in Sources */,
+				18466E861DBC4F22006D6F1A /* SignIn_1ViewController.swift in Sources */,
 				FA9ED3311DB9786F00132C21 /* AutoSegueViewController.swift in Sources */,
 				188B66BC1DBBF92500A0601C /* ScrollViewController.swift in Sources */,
 				FA14FA221DB8653D00423261 /* ViewController.swift in Sources */,
